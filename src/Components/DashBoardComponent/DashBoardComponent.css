@@ -1,0 +1,57 @@
+.Header {
+    width: auto;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    background: #cccc 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    }
+    .dashboard-page{
+ width: 100%;
+ height: 100%;
+    }
+    .right-panel{
+   display: flex;
+   justify-content: space-around;
+   width: 50%;
+    }
+.directory-menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  } 
+  
+  
+  .menu-item {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 0 7.5px 15px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .menu-header{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+  }
+
+  .underline {
+    border-top: 1px solid #cccc;
+    margin: 5px 0px;
+}
+
+.header-title{
+    flex: 1;
+}
+
+.header-title2{
+    flex: 2;
+}
